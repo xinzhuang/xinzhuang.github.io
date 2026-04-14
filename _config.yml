@@ -65,9 +65,91 @@ index_generator:
   order_by: -date
 
 # Category & Tag
-default_category: uncategorized
+default_category: others
 category_map:
+  # AI
+  AI-Application: ai-application
+  AI-Agent: ai-agent
+  AI-Programming: ai-programming
+  Context-Engineering: context-engineering
+  LLM: llm
+  # Engineering
+  Frontend: frontend
+  Backend: backend
+  DevOps: devops
+  Database: database
+  # General
+  Tools: tools
+  Notes: notes
+  Others: others
+
 tag_map:
+  # AI Core
+  Prompt-Engineering: prompt-engineering
+  RAG: rag
+  Fine-Tuning: fine-tuning
+  Multi-Modal: multi-modal
+  AI-Safety: ai-safety
+  # AI Agent
+  Agent-Framework: agent-framework
+  Tool-Use: tool-use
+  Memory: memory
+  Planning: planning
+  MCP: mcp
+  Function-Calling: function-calling
+  # AI Programming
+  Claude-Code: claude-code
+  Copilot: copilot
+  Cursor: cursor
+  AI-Assisted-Dev: ai-assisted-dev
+  Code-Generation: code-generation
+  Code-Review: code-review
+  # Context Engineering
+  System-Prompt: system-prompt
+  CLAUDE-md: claude-md
+  Context-Window: context-window
+  Prompt-Caching: prompt-caching
+  Skill-Design: skill-design
+  # AI Platforms
+  OpenAI: openai
+  Anthropic: anthropic
+  LangChain: langchain
+  Dify: dify
+  # Languages
+  Python: python
+  TypeScript: typescript
+  JavaScript: javascript
+  Go: go
+  Rust: rust
+  Shell: shell
+  # Frontend
+  React: react
+  Vue: vue
+  Next.js: nextjs
+  # Backend
+  FastAPI: fastapi
+  Node.js: nodejs
+  Django: django
+  Spring: spring
+  # DevOps
+  Docker: docker
+  Kubernetes: kubernetes
+  CI-CD: ci-cd
+  Linux: linux
+  Nginx: nginx
+  # Database
+  PostgreSQL: postgresql
+  MySQL: mysql
+  Redis: redis
+  MongoDB: mongodb
+  # Tools
+  Git: git
+  VSCode: vscode
+  Vim: vim
+  # Misc
+  Algorithm: algorithm
+  Design-Pattern: design-pattern
+  Best-Practice: best-practice
 
 # Metadata elements
 ## https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta

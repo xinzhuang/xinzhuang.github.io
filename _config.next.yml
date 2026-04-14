@@ -39,7 +39,7 @@ bookmark:
 
 # Copy code
 copycode:
-  enable: false
+  enable: true
 
 # Lightbox
 fancybox: false
@@ -74,3 +74,9 @@ algolia:
   enable: false
 localsearch:
   enable: false
+
+firestore:
+  enable: true
+  collection: articles
+  apiKey: AIzaSyDM7Za5ZYTkg0J9__37jqTDJ3fQ5kcaZr8
+  projectId: aiblog-e3188
