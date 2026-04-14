@@ -1,0 +1,76 @@
+# =============================================================
+# NexT主题配置
+# =============================================================
+
+# Menu
+menu:
+  home: / || fa fa-home
+  about: /about/ || fa fa-user
+  tags: /tags/ || fa fa-tags
+  categories: /categories/ || fa fa-th
+  archives: /archives/ || fa fa-archive
+
+menu_settings:
+  icons: true
+  badges: false
+
+# Scheme
+scheme: Pisces
+
+# Sidebar
+sidebar:
+  position: left
+  display: post
+  padding: 18
+  offset: 12
+  onmobile: false
+
+# Back to top
+back2top:
+  enable: true
+  sidebar: false
+  scrollpercent: false
+
+# Bookmark
+bookmark:
+  enable: false
+  color: "#222"
+  save: auto
+
+# Copy code
+copycode:
+  enable: false
+
+# Lightbox
+fancybox: false
+mediumzoom: false
+
+# Lazyload
+lazyload: false
+
+# Pangu spacing
+pangu: false
+
+# Comments
+comments:
+  style: tabs
+  active: disqus
+  storage: true
+  lazyload: false
+
+# Motion
+motion:
+  enable: true
+  async: false
+  transition:
+    post_block: fadeIn
+    post_header: slideDownIn
+    post_body: slideDownIn
+    coll_header: slideLeftIn
+    sidebar: slideUpIn
+
+# Search
+algolia:
+  enable: false
+localsearch:
+  enable: false
