@@ -69,6 +69,13 @@ motion:
     coll_header: slideLeftIn
     sidebar: slideUpIn
 
+# Mermaid diagrams
+mermaid:
+  enable: true
+  theme:
+    light: default
+    dark: dark
+
 # Search
 algolia:
   enable: false
